@@ -6,7 +6,7 @@ import users from "./models/userSchema.js";
 import router from "./routes/router.js";
 const app = express();
 dotnenv.config();
-const PORT = 8003;
+const PORT = 8000;
 
 connectDB;
 app.use(cors());

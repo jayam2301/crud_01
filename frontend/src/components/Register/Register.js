@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import { addData } from "../Context/Context";
+import { addData } from "./../Context/Context";
 
 const Register = () => {
   const { udata, setUdata } = useContext(addData);
